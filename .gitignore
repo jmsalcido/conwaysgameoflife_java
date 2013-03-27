@@ -1,3 +1,8 @@
+# trash
+.DS_Store
+Thumbs.db
+
+# java shit
 *.class
 
 # Package Files #
