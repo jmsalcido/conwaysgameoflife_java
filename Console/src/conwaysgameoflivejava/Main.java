@@ -18,6 +18,10 @@ import java.util.Scanner;
  */
 public class Main {
 
+    // default generations if user is too damn stupid
+    private static int DEFAULT_GENERATIONS = 3;
+    
+    // set the initial board here
     private static String board = ""
             + "001010000000000000000000010000\n"
             + "010110000000000000000000101000\n"
@@ -30,6 +34,7 @@ public class Main {
             + "000000000000000000000110000000\n"
             + "000000000000000000000000000000\n";
     
+// Debug shit    
 //    private static String board = ""
 //            + "010\n"
 //            + "010\n"
@@ -39,41 +44,79 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        // get the game logic
         Logic logic = Logic.getLogic();
+        
+        // set the main board
         logic.setStringBoard(board);
+        
+        // create the input (or it could be read from the command line)
+        //if(args[0] != null) {
+        //    getNumber(args[0]);
+        //}
         Scanner input = new Scanner(System.in);
+        
+        // ask for the number of generations
         System.out.println("Number of generations: (0,n)");
         int generations = getNumber(input);
-        //int generations = 3;
+        
+        // print the first generation BOARD
+        System.out.println(board);
+        
+        // space traveler, get ready to iterate thru the space and time!
+        // navigate thru generations
         for(int i = 0; i < generations; i++) {
+            
+            // print the board
             System.out.println(logic.getNextGenerationBoard());
+            
+            // if this is not the last generation of the universe
+            // prepare them to die or keep them alive.
             if(i != lastGeneration(generations)) {
+                // No ncurses or java curses library for you.
                 System.out.println("Press any key for next generation");
                 input.nextLine();
             } else {
-                // END
+                
+                // End of the "game"
+                System.out.println("The universe exploded.");
             }
         }
     }
     
+    // no magic numbers please
     private static int lastGeneration(int n) {
-        return n-1;
+        return n-1; // n-1 = last one before the end, DUH
     }
     
+    // get number from input
     private static int getNumber(Scanner input) {
+        String number = input.nextLine();
+        return getNumber(number);
+    }
+    
+    // safe get number from string
+    private static int getNumber(String number) {
+        // number of generatios saved in an integer
         int generations;
+        
+        // try to get a number from String
+        // if it is not possible, welp
+        // use the DEFAULT_GENERATIONS constnt.
         try {
-            generations = Math.abs(Integer.parseInt(input.nextLine()));
+            generations = Math.abs(Integer.parseInt(number));
             if(generations <= 0) {
                 generations = 1;
             } else {
                 // nothing
             }
         } catch (NumberFormatException nfe) {
-            generations = 3;
+            generations = DEFAULT_GENERATIONS;
             String out = String.format("\nWrong answer using %d as n\n", generations);
             System.out.println(out);
         }
+        
+        // return n generations to explore
         return generations;
     }
 }
