@@ -1,5 +1,7 @@
 package org.otfusion.java.conways.engine;
 
+import org.otfusion.java.conways.log.Log;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jms
@@ -15,10 +17,19 @@ public class Universe {
 
     private Cell[][] universe;
 
+    /**
+     * Universe: create a new universe
+     * @param x width
+     * @param y height
+     */
     public Universe(int x, int y) {
         universe = new Cell[x][y];
     }
 
+    /**
+     * setUniverse: set a boolean 2d array as our universe
+     * @param universe
+     */
     public void setUniverse(boolean[][] universe) {
         int x = universe[0].length;
         int y = universe.length;
@@ -92,6 +103,11 @@ public class Universe {
         }
     }
 
+    /**
+     * buildString: set 1 for true and 0 for false
+     * @param cell
+     * @return
+     */
     private String buildString(Cell cell) {
         if(cell.getState()) {
             return "1";
@@ -100,10 +116,32 @@ public class Universe {
         }
     }
 
+    /**
+     * calculateNextGeneration: just... calculate it.
+     */
     public void calculateNextGeneration() {
+        Log.v("UNIVERSE","Calculating next generation...");
         this.universe = (Cell[][])this.readUniverse(OPTION_CELL);
     }
 
+    /**
+     * calculateNumberOfNeighbors: I think that the correct word is "neighbours" but it is okay.
+     * calculate the number of "neighbours" looking at:
+     *
+     * [x][x][x]
+     * [x][c][x]
+     * [x][x][x]
+     *
+     * c = our current cell
+     *
+     * you should look at: ((x-1),(y-1)) to ((x+1), (y+1));
+     *
+     * if x|y < 0 and x|y > universe.lenght ... please die.
+     *
+     * @param x current x position
+     * @param y current y position
+     * @return number of "neighbours"
+     */
     private int calculateNumberOfNeighbors(int x, int y) {
         int n = 0;
         int xUniverse = universe[0].length;
@@ -127,6 +165,11 @@ public class Universe {
         return n;
     }
 
+    /**
+     * applyRules: apply the damn rules to a cell.
+     * @param cell
+     * @return
+     */
     private Cell applyRules(Cell cell) {
         cell = applyRule1(cell);
         cell = applyRule2(cell);
@@ -135,6 +178,11 @@ public class Universe {
         return cell;
     }
 
+    /**
+     * applyRule1: Any live cell with fewer than two live neighbours dies as if caused by underpopulation
+     * @param cell
+     * @return
+     */
     private Cell applyRule1(Cell cell) {
         // Any live cell with fewer than two live neighbours dies as if caused by underpopulation
         if(cell.getState() && (cell.getNeighbors() < 2)) {
@@ -144,6 +192,11 @@ public class Universe {
         }
     }
 
+    /**
+     * applyRule2: Any live cell with fewer than two live neighbours dies as if caused by underpopulation
+     * @param cell
+     * @return
+     */
     private Cell applyRule2(Cell cell) {
         // Any live cell with fewer than two live neighbours dies as if caused by underpopulation
         if(cell.getState() && (cell.getNeighbors() > 3)) {
@@ -153,6 +206,11 @@ public class Universe {
         }
     }
 
+    /**
+     * applyRule3: Any live cell with two or three live neighbours live on to the next generation
+     * @param cell
+     * @return
+     */
     private Cell applyRule3(Cell cell) {
         // Any live cell with two or three live neighbours live on to the next generation
         if(cell.getState() && ((cell.getNeighbors() == 2) || (cell.getNeighbors() == 3))) {
@@ -162,6 +220,11 @@ public class Universe {
         }
     }
 
+    /**
+     * applyRule4: Any dead cell with exactly three live neighbours becomes a live cell
+     * @param cell
+     * @return
+     */
     private Cell applyRule4(Cell cell) {
         // Any dead cell with exactly three live neighbours becomes a live cell
         if((cell.getState() == false) && (cell.getNeighbors() == 3)) {

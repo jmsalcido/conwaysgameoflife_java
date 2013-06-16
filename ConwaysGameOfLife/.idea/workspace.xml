@@ -4,14 +4,31 @@
     <list default="true" id="bd9a2468-06f3-46c0-9801-73ebc52703af" name="Default" comment="" />
     <ignored path="ConwaysGameOfLife.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Main.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370841714812" ignored="false" />
-    <file path="/fragment.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370554999362" ignored="false" />
-    <file path="/Engine.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370743256381" ignored="false" />
-    <file path="/Log.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370556040892" ignored="false" />
-    <file path="/Universe.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370838214910" ignored="false" />
+    <file path="/Main.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371422855011" ignored="false" />
+    <file path="/fragment.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371009457461" ignored="false" />
+    <file path="/Engine.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371420609403" ignored="false" />
+    <file path="/Log.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371008239310" ignored="false" />
+    <file path="/Universe.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370846149616" ignored="false" />
     <file path="/ConwaysRules.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370636478219" ignored="false" />
     <file path="/Cell.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370735352052" ignored="false" />
-    <file path="/Tools.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370841698010" ignored="false" />
+    <file path="/Tools.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371009249583" ignored="false" />
+    <file path="/MainForm.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371426258586" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/relaxng.rng" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xinclude.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-1_0.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xslt-2_0.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/documentation.xml" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xml.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/xpath/lib/xpath.jar!/org/intellij/lang/xpath/xslt/resources/xslt-schema.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-frameset.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/settings-1.0.0.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
+    <file path="/MainFormTest.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371420307080" ignored="false" />
+    <file path="/GridLayoutTest.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371422513751" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,8 +80,61 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <line_breakpoints>
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="102" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="114" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
     <breakpoint_rules />
     <ui_properties />
+  </component>
+  <component name="DockManager">
+    <window id="2">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="GridLayoutTest.java" pinned="false" current="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/GridLayoutTest.java">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state line="18" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.29032257">
+                    <folding>
+                      <element signature="imports" expanded="true" />
+                    </folding>
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -72,37 +142,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="53" selection-start="845" selection-end="845" vertical-scroll-proportion="0.3611111">
-              <folding />
+            <state line="66" column="31" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#2385#2489#0" expanded="true" />
+                <element signature="e#2478#2479#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Engine.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Engine.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Universe.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Tools.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Tools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="7" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
+            <state line="40" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.5277778">
               <folding />
             </state>
           </provider>
@@ -119,19 +185,23 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/rules/ConwaysRules.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/rules/IConwaysRules.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Cell.java" />
-        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java" />
-        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Tools.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.form" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainFormTest.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/GridLayoutTest.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-2" />
     <option name="y" value="22" />
     <option name="width" value="1280" />
     <option name="height" value="688" />
@@ -214,6 +284,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -269,13 +340,104 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphics" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ConwaysGameOfLife" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conways" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="engine" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -284,7 +446,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="Errors" />
+    <property name="options.lastSelected" value="appearance" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -389,7 +551,7 @@
     </configuration>
     <configuration default="false" name="Main" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.otfusion.java.conways.Main" />
-      <option name="VM_PARAMETERS" value="" />
+      <option name="VM_PARAMETERS" value="-Xdock:name=ConwaysGameOfLife" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -418,6 +580,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="bd9a2468-06f3-46c0-9801-73ebc52703af" name="Default" comment="" />
@@ -427,27 +594,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-2" y="22" width="1280" height="688" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="22" width="1280" height="688" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7256637" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933628" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39612675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.4753521" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5246479" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.60387325" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27288732" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7256637" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32964602" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -517,86 +685,121 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="37" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#2385#2489#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="3" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="8" column="3" selection-start="189" selection-end="189" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="34" selection-start="286" selection-end="286" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="e#2385#2489#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="25" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="35" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="519" selection-end="519" vertical-scroll-proportion="0.37585422">
-          <folding />
-        </state>
+        <state line="22" column="35" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Cell.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="30" selection-start="528" selection-end="528" vertical-scroll-proportion="0.70069206">
-          <folding />
-        </state>
+        <state line="27" column="30" selection-start="528" selection-end="528" vertical-scroll-proportion="0.70069206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="2742" selection-end="2742" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="233" column="9" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.75" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/MainFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="545" selection-end="545" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Tools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="7" selection-start="1007" selection-end="1007" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="12" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.16883117">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="53" selection-start="845" selection-end="845" vertical-scroll-proportion="0.3611111">
+        <state line="66" column="31" selection-start="2465" selection-end="2465" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#2385#2489#0" expanded="true" />
+            <element signature="e#2478#2479#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/GridLayoutTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.29032257">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="3" selection-start="156" selection-end="156" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="7" selection-start="225" selection-end="225" vertical-scroll-proportion="-0.8333333">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="12" selection-start="100" selection-end="100" vertical-scroll-proportion="0.16666667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.5277778">
           <folding />
         </state>
       </provider>

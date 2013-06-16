@@ -1,5 +1,7 @@
 package org.otfusion.java.conways.engine;
 
+import org.otfusion.java.conways.log.Log;
+
 /**
  * This class will have all the powers to print in console and graphic world!
  * User: jms
@@ -13,17 +15,33 @@ public class Engine {
     private Universe universe;
     private int generations;
 
+    /**
+     * You cant create a new engine, Singleton master race.
+     * @param x
+     * @param y
+     */
     private Engine(int x, int y) {
         this.universe = new Universe(x,y);
     }
 
+    /**
+     * init: init the game song.
+     */
     public void init() {
-        for(int i = 0; i < generations; i ++) {
-            printUniverse();
-            universe.calculateNextGeneration();
+        if(this.generations != -1) {
+            Log.v("ENGINE",String.format("Number of generations: %d", this.generations));
+            for(int i = 0; i < generations; i ++) {
+                printUniverse();
+                universe.calculateNextGeneration();
+            }
+        } else {
+            // infinite play here.
         }
     }
 
+    /**
+     * printUniverse: seriously, just pass it thru System.out.
+     */
     private void printUniverse() {
         String stringUniverse = null;
         stringUniverse = universe.stringify();
@@ -46,6 +64,13 @@ public class Engine {
         return engine;
     }
 
+    // gets and sets.
+    // ===================================================
+
+    /**
+     * getUni... nah im not documenting these.
+     * @return
+     */
     public Universe getUniverse() {
         return this.universe;
     }
