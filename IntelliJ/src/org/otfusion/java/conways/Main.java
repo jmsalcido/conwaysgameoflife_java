@@ -22,8 +22,8 @@ public class Main {
      */
     public static void main(String[] args) {
         Log.v("GAME","New Game Starting...");
-        //consoleGame();
-        graphicGame();
+        consoleGame();
+        //graphicGame();
     }
 
     /**
