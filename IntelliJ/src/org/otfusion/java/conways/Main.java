@@ -2,7 +2,6 @@ package org.otfusion.java.conways;
 
 import org.otfusion.java.conways.engine.Engine;
 import org.otfusion.java.conways.graphics.MainForm;
-import org.otfusion.java.conways.graphics.tests.GridLayoutTest;
 import org.otfusion.java.conways.utils.Tools;
 import org.otfusion.java.conways.log.Log;
 
@@ -22,8 +21,8 @@ public class Main {
      */
     public static void main(String[] args) {
         Log.v("GAME","New Game Starting...");
-        consoleGame();
-        //graphicGame();
+        //consoleGame();
+        graphicGame();
     }
 
     /**

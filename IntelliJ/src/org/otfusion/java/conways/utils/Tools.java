@@ -1,5 +1,6 @@
 package org.otfusion.java.conways.utils;
 
+import javax.swing.*;
 import java.util.Scanner;
 
 /**
@@ -11,6 +12,21 @@ import java.util.Scanner;
 public class Tools {
 
     private static final String TRUE_STRING = "1";
+
+    public static boolean[][] convertToBooleanArray(JButton[][] board) {
+        // Wizards stuff, do not optimize.
+        int x = board.length;
+        int y = board[0].length;
+
+        boolean[][] newBoard = new boolean[x][y];
+
+        for(int i = 0; i < x; i++) {
+            for(int j = 0; j < y; i++) {
+                newBoard[i][j] = board[i][j].isSelected();
+            }
+        }
+        return newBoard;
+    }
 
     /**
      * convertToBooleanArray: Convert a String board to a boolean[][]

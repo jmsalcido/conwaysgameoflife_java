@@ -1,12 +1,9 @@
 package org.otfusion.java.conways.graphics;
 
-import com.sun.java.swing.plaf.windows.WindowsLookAndFeel;
-import org.otfusion.java.conways.engine.Engine;
 import org.otfusion.java.conways.graphics.controllers.MainFormController;
 
 import javax.swing.*;
 import javax.swing.plaf.metal.MetalLookAndFeel;
-import javax.swing.plaf.nimbus.NimbusLookAndFeel;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -33,14 +30,7 @@ public class MainForm {
     public MainForm() {
         JFrame guiFrame = new JFrame("Conway's Game of Life");
 
-        // TODO OS X doesnt change JButton background color, so I will try a hack soon.
-        try {
-            if(System.getProperty("os.name").contains("Mac")) {
-                UIManager.setLookAndFeel(new MetalLookAndFeel());
-            } else {
-                // Use Default (I need a proper Linux & Windows test)
-            }
-        } catch (Exception e) {}
+        setLookAndFeel();
 
         // Set Size & Operations over Frame
         guiFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -59,6 +49,17 @@ public class MainForm {
         guiFrame.setVisible(true);
     }
 
+    private void setLookAndFeel() {
+        // TODO OS X doesnt change JButton background color, so I will try a hack soon.
+        try {
+            if(System.getProperty("os.name").contains("Mac")) {
+                UIManager.setLookAndFeel(new MetalLookAndFeel());
+            } else {
+                // Use Default (I need a proper Linux & Windows test)
+            }
+        } catch (Exception e) {}
+    }
+
     /**
      * createGUI: Create foundation of our game, create buttons and all!
      * @param frame
@@ -73,14 +74,14 @@ public class MainForm {
         // TODO debug x&y son.
         this.control = new MainFormController(this, rows, columns);
 
-        this.topPanel = createTopPanel(frame);
+        this.topPanel = createTopPanel();
         this.controlPanel = createControlPanel(frame);
 
         frame.add(topPanel, BorderLayout.NORTH);
         frame.add(controlPanel, BorderLayout.CENTER);
     }
 
-    private JPanel createTopPanel(JFrame frame) {
+    private JPanel createTopPanel() {
         // Default Sizes and all
         Font font = new Font("Helvetica", Font.PLAIN, 16);
         Dimension dimensionForButtons = new Dimension(100,48);
@@ -90,15 +91,31 @@ public class MainForm {
         panel.setVisible(true);
 
         // Create buttons: start, stop and exit
+        // and set their default values.
         this.startButton = new JButton("PlayL3l");
         startButton.setFont(font);
         startButton.setSize(dimensionForButtons);
         startButton.setPreferredSize(dimensionForButtons);
 
+        startButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                control.start();
+            }
+        });
+
         this.stopButton = new JButton("StopL3L");
+        stopButton.setEnabled(false);
         stopButton.setFont(font);
         stopButton.setSize(dimensionForButtons);
         stopButton.setPreferredSize(dimensionForButtons);
+
+        stopButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                control.stop();
+            }
+        });
 
         JButton exitButton = new JButton("ExitL3l");
         exitButton.setFont(font);
@@ -108,7 +125,7 @@ public class MainForm {
         exitButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                System.exit(0);
+                control.exit();
             }
         });
 
@@ -141,8 +158,9 @@ public class MainForm {
         panel.setMinimumSize(dimension);
         panel.setVisible(true);
 
-        JButton cell = null;
+        JButton cell;
 
+        // Create the JButtons for each cell.
         for(int i = 0; i < nCells ; i++) {
             // this can be in a nested for or calculating the x and y way.
             cell = createCellButton();
@@ -163,10 +181,26 @@ public class MainForm {
         JButton button = new JButton();
         button.setPreferredSize(cellSize);
         button.setMinimumSize(cellSize);
+        button.setSelected(true);
         //button.setMaximumSize(cellSize);
         button.setSize(cellSize);
         button.setBackground(Color.WHITE);
         button.setOpaque(true);
+
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JButton button = (JButton)e.getSource();
+                Color color = (button.getBackground());
+                if(color == Color.WHITE) {
+                    button.setBackground(Color.BLACK);
+                } else {
+                    button.setBackground(Color.WHITE);
+                }
+
+            }
+        });
+
         return button;
     }
 

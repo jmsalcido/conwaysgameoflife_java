@@ -8,11 +8,11 @@
     <file path="/fragment.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371009457461" ignored="false" />
     <file path="/Engine.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371420609403" ignored="false" />
     <file path="/Log.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371008239310" ignored="false" />
-    <file path="/Universe.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370846149616" ignored="false" />
+    <file path="/Universe.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371514594566" ignored="false" />
     <file path="/ConwaysRules.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370636478219" ignored="false" />
     <file path="/Cell.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370735352052" ignored="false" />
-    <file path="/Tools.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371009249583" ignored="false" />
-    <file path="/MainForm.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371451311119" ignored="false" />
+    <file path="/Tools.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371513821431" ignored="false" />
+    <file path="/MainForm.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371515881137" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/catalog.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/html5/xhtml5.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-strict.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
@@ -29,7 +29,7 @@
     <file path="$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/XMLSchema-instance.xsd" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1370986821120" ignored="false" />
     <file path="/MainFormTest.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371420307080" ignored="false" />
     <file path="/GridLayoutTest.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371422513751" ignored="false" />
-    <file path="/MainFormController.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371443335555" ignored="false" />
+    <file path="/MainFormController.java" changelist="bd9a2468-06f3-46c0-9801-73ebc52703af" time="1371515412780" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +45,7 @@
   </component>
   <component name="DebuggerManager">
     <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="143" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="160" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -60,7 +60,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="155" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="173" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -75,7 +75,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="73" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" line="74" class="org.otfusion.java.conways.graphics.MainForm" package="org.otfusion.java.conways.graphics">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java" line="17" class="org.otfusion.java.conways.utils.Tools" package="org.otfusion.java.conways.utils">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -137,10 +152,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="5" selection-start="604" selection-end="604" vertical-scroll-proportion="0.37958115">
+            <state line="48" column="19" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -149,22 +164,33 @@
       <file leaf-file-name="MainForm.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="135" column="31" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.0">
+            <state line="181" column="42" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#3347#3504#0" expanded="true" />
-                <element signature="e#3493#3494#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#5706#6141#0" expanded="true" />
+                <element signature="e#6130#6131#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainFormController.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="MainFormController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/controllers/MainFormController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="43" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+            <state line="53" column="9" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.64841497">
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1687#1864#0" expanded="true" />
+                <element signature="e#1845#1846#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tools.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="29" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -193,16 +219,16 @@
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/rules/IConwaysRules.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Cell.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Tools.java" />
-        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.form" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainFormTest.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/GridLayoutTest.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java" />
+        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/controllers/MainFormController.java" />
         <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java" />
-        <option value="$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java" />
       </list>
     </option>
   </component>
@@ -606,7 +632,7 @@
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7256637" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39612675" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39601138" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -615,8 +641,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.72183096" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.278169" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24554294" sideWeight="0.66021127" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33978873" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.7256637" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -690,13 +716,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="25" column="0" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" />
@@ -729,25 +748,14 @@
         <state line="27" column="30" selection-start="528" selection-end="528" vertical-scroll-proportion="0.70069206" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="9" selection-start="6675" selection-end="6675" vertical-scroll-proportion="0.75" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/MainFormTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.16883117">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="12" column="3" selection-start="228" selection-end="228" vertical-scroll-proportion="0.16883117" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/tests/GridLayoutTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.50507617">
-          <folding />
-        </state>
+        <state line="18" column="29" selection-start="487" selection-end="487" vertical-scroll-proportion="0.50507617" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/log/Log.java">
@@ -759,9 +767,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_15.jdk/Contents/Home/src.zip!/java/awt/event/ActionListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="16" selection-start="975" selection-end="975" vertical-scroll-proportion="0.7222222">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/utils/Tools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="100" selection-end="100" vertical-scroll-proportion="0.16666667">
+        <state line="17" column="29" selection-start="379" selection-end="379" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/engine/Universe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="226" column="7" selection-start="6362" selection-end="6362" vertical-scroll-proportion="0.16666667">
           <folding />
         </state>
       </provider>
@@ -773,29 +795,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/controllers/MainFormController.java">
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="43" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="48" column="19" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/MainForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="135" column="31" selection-start="4110" selection-end="4110" vertical-scroll-proportion="0.0">
+        <state line="181" column="42" selection-start="5444" selection-end="5444" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#3347#3504#0" expanded="true" />
-            <element signature="e#3493#3494#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#5706#6141#0" expanded="true" />
+            <element signature="e#6130#6131#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/org/otfusion/java/conways/graphics/controllers/MainFormController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="5" selection-start="604" selection-end="604" vertical-scroll-proportion="0.37958115">
-          <folding />
+        <state line="53" column="9" selection-start="1280" selection-end="1280" vertical-scroll-proportion="0.64841497">
+          <folding>
+            <element signature="e#1687#1864#0" expanded="true" />
+            <element signature="e#1845#1846#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

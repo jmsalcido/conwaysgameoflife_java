@@ -16,6 +16,8 @@ public class Universe {
     public static final int OPTION_CELL = 2;
 
     private Cell[][] universe;
+    private int rows;
+    private int columns;
 
     /**
      * Universe: create a new universe
@@ -24,6 +26,8 @@ public class Universe {
      */
     public Universe(int x, int y) {
         universe = new Cell[x][y];
+        this.columns = x;
+        this.rows = y;
     }
 
     /**
@@ -232,5 +236,21 @@ public class Universe {
         } else {
             return cell;
         }
+    }
+
+    public int getRows() {
+        return this.rows;
+    }
+
+    public void setRows(int rows) {
+        this.rows = rows;
+    }
+
+    public int getColumns() {
+        return this.columns;
+    }
+
+    public void setColumns(int columns) {
+        this.columns = columns;
     }
 }
