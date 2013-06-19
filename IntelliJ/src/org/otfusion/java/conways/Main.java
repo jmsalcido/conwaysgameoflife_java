@@ -15,6 +15,20 @@ import java.util.Scanner;
  */
 public class Main {
 
+
+    // Board
+    private static String stringUniverse =
+                    "0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                    "0, 0, 1, 0 ,0 ,0, 0, 0, 0, 0, 0\n" +
+                    "1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                    "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n";
+
     /**
      * start here.
      * @param args
@@ -41,17 +55,6 @@ public class Main {
         System.out.println("How many generations will be there? (default 5):");
         int generations = Tools.readSafeInt(new Scanner(System.in));
         engine.setGenerations(generations);
-        String stringUniverse =
-                "0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 1, 0 ,0 ,0, 0, 0, 0, 0, 0\n" +
-                "1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n";
 
         boolean[][] booleanUniverse = Tools.convertToBooleanArray(stringUniverse);
         engine.getUniverse().setUniverse(booleanUniverse);
@@ -62,10 +65,10 @@ public class Main {
         // TODO: this, but I will use swing.
         // Always run it on the Event Dispatch Thread
         javax.swing.SwingUtilities.invokeLater(new Runnable() {
-            public void run() {
-                new MainForm();
-            }
-        });
-    }
+        public void run() {
+            new MainForm();
+        }
+    });
+}
 
 }
