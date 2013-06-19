@@ -22,6 +22,7 @@ public class Engine {
      */
     private Engine(int x, int y) {
         this.universe = new Universe(x,y);
+        generations = 5;
     }
 
     /**

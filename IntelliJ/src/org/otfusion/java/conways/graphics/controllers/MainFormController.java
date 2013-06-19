@@ -1,7 +1,9 @@
 package org.otfusion.java.conways.graphics.controllers;
 
 import org.otfusion.java.conways.engine.Engine;
+import org.otfusion.java.conways.engine.Universe;
 import org.otfusion.java.conways.graphics.MainForm;
+import org.otfusion.java.conways.utils.Tools;
 
 import javax.swing.*;
 import java.awt.*;
@@ -40,6 +42,10 @@ public class MainFormController {
             disableCells();
             form.getStartButton().setEnabled(false);
             form.getStopButton().setEnabled(true);
+            boolean[][] cells = Tools.convertToBooleanArray(form.getCellButtons());
+            engine.getUniverse().setUniverse(cells);
+            engine.init();
+
         }
     }
 

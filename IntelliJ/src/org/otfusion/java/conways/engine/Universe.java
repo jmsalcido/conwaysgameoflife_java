@@ -35,8 +35,8 @@ public class Universe {
      * @param universe
      */
     public void setUniverse(boolean[][] universe) {
-        int x = universe[0].length;
-        int y = universe.length;
+        int x = universe.length;
+        int y = universe[0].length;
 
         this.universe = new Cell[x][y];
 
@@ -63,18 +63,21 @@ public class Universe {
      * @return
      */
     private Object readUniverse(int option) {
+        int x = universe.length;
+        int y = universe[0].length;
+
         StringBuilder sb = null;
         String string = null;
         Cell cell = null;
-        Cell[][] nextUniverse = new Cell[universe[0].length][universe.length];
+        Cell[][] nextUniverse = new Cell[x][y];
 
         // Lets verify if the universe will be returned in String.
         if(option == OPTION_STRING) {
             sb = new StringBuilder();
         }
 
-        for(int i = 0; i < universe[0].length; i++) {
-            for(int j = 0; j < universe.length; j++) {
+        for(int i = 0; i < x; i++) {
+            for(int j = 0; j < y; j++) {
                 switch(option) {
                     case OPTION_STRING:
                         sb.append(buildString(universe[i][j]));
@@ -148,8 +151,8 @@ public class Universe {
      */
     private int calculateNumberOfNeighbors(int x, int y) {
         int n = 0;
-        int xUniverse = universe[0].length;
-        int yUniverse = universe.length;
+        int xUniverse = universe.length;
+        int yUniverse = universe[0].length;
         int times = 2;
         for(int i = x-1; i < x + times; i++) {
             if(i < 0 || i >= xUniverse) {

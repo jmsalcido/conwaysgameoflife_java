@@ -37,21 +37,21 @@ public class Main {
         //int x = readSafeInt(new Scanner(System.in));
         //System.out.println("Y - HEIGHT: ");
         //int y = readSafeInt(new Scanner(System.in));
-        Engine engine = Engine.createEngine(10, 10);
+        Engine engine = Engine.createEngine(11, 10);
         System.out.println("How many generations will be there? (default 5):");
         int generations = Tools.readSafeInt(new Scanner(System.in));
         engine.setGenerations(generations);
         String stringUniverse =
-                "0, 1, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 1, 0 ,0 ,0, 0, 0, 0, 0\n" +
-                "1, 1, 1, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0\n" +
-                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n";
+                "0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                "0, 0, 1, 0 ,0 ,0, 0, 0, 0, 0, 0\n" +
+                "1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0\n" +
+                "0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0\n";
 
         boolean[][] booleanUniverse = Tools.convertToBooleanArray(stringUniverse);
         engine.getUniverse().setUniverse(booleanUniverse);

@@ -1,6 +1,7 @@
 package org.otfusion.java.conways.utils;
 
 import javax.swing.*;
+import java.awt.*;
 import java.util.Scanner;
 
 /**
@@ -21,8 +22,9 @@ public class Tools {
         boolean[][] newBoard = new boolean[x][y];
 
         for(int i = 0; i < x; i++) {
-            for(int j = 0; j < y; i++) {
-                newBoard[i][j] = board[i][j].isSelected();
+            for(int j = 0; j < y; j++) {
+                Color color = board[i][j].getBackground();
+                newBoard[i][j] = color == Color.BLACK;
             }
         }
         return newBoard;
