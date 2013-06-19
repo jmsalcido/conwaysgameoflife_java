@@ -1,7 +1,11 @@
 package org.otfusion.java.conways.utils;
 
+import org.otfusion.java.conways.graphics.MainForm;
+
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.Scanner;
 
 /**
@@ -28,6 +32,40 @@ public class Tools {
             }
         }
         return newBoard;
+    }
+
+    /**
+     * createCellButton: this will create a JButton for our swing form.
+     * @return
+     */
+    public static JButton createCellButton() {
+        // TODO OS X hack, remember.
+        Dimension cellSize = new Dimension(MainForm.CELL_SIZE, MainForm.CELL_SIZE);
+
+        JButton button = new JButton();
+        button.setPreferredSize(cellSize);
+        button.setMinimumSize(cellSize);
+        button.setSelected(true);
+        //button.setMaximumSize(cellSize);
+        button.setSize(cellSize);
+        button.setBackground(Color.WHITE);
+        button.setOpaque(true);
+
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                JButton button = (JButton)e.getSource();
+                Color color = (button.getBackground());
+                if(color == Color.WHITE) {
+                    button.setBackground(Color.BLACK);
+                } else {
+                    button.setBackground(Color.WHITE);
+                }
+
+            }
+        });
+
+        return button;
     }
 
     /**

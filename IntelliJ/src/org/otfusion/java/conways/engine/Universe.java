@@ -2,6 +2,8 @@ package org.otfusion.java.conways.engine;
 
 import org.otfusion.java.conways.log.Log;
 
+import javax.swing.*;
+
 /**
  * Created with IntelliJ IDEA.
  * User: jms
@@ -11,7 +13,7 @@ import org.otfusion.java.conways.log.Log;
  */
 public class Universe {
 
-    public static final int OPTION_NEIGHBORS = 0;
+    public static final int OPTION_SWING = 0;
     public static final int OPTION_STRING = 1;
     public static final int OPTION_CELL = 2;
 
@@ -57,6 +59,10 @@ public class Universe {
         return (String) readUniverse(OPTION_STRING);
     }
 
+    public JButton[][] readButtons() {
+        return (JButton[][]) readUniverse(OPTION_SWING);
+    }
+
     /**
      * readUniverse: I dont want to write 3-4 times this "for".
      * @param option
@@ -90,6 +96,8 @@ public class Universe {
                         cell = applyRules(cell);
                         nextUniverse[i][j] = cell;
                         break;
+                    case OPTION_SWING:
+                        cell = universe[i][j];
                     default:
                         break;
                 }

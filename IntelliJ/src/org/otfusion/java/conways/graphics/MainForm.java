@@ -1,6 +1,7 @@
 package org.otfusion.java.conways.graphics;
 
 import org.otfusion.java.conways.graphics.controllers.MainFormController;
+import org.otfusion.java.conways.utils.Tools;
 
 import javax.swing.*;
 import javax.swing.plaf.metal.MetalLookAndFeel;
@@ -158,12 +159,12 @@ public class MainForm {
         panel.setMinimumSize(dimension);
         panel.setVisible(true);
 
+        // wut
         JButton cell;
-
         // Create the JButtons for each cell.
         for(int i = 0; i < nCells ; i++) {
             // this can be in a nested for or calculating the x and y way.
-            cell = createCellButton();
+            cell = Tools.createCellButton();
             int x = i/columns;
             int y = i-(columns*x);
             // Debug shit.
@@ -172,36 +173,6 @@ public class MainForm {
             panel.add(cell);
         }
         return panel;
-    }
-
-    private JButton createCellButton() {
-        // TODO OS X hack, remember.
-        Dimension cellSize = new Dimension(CELL_SIZE, CELL_SIZE);
-
-        JButton button = new JButton();
-        button.setPreferredSize(cellSize);
-        button.setMinimumSize(cellSize);
-        button.setSelected(true);
-        //button.setMaximumSize(cellSize);
-        button.setSize(cellSize);
-        button.setBackground(Color.WHITE);
-        button.setOpaque(true);
-
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JButton button = (JButton)e.getSource();
-                Color color = (button.getBackground());
-                if(color == Color.WHITE) {
-                    button.setBackground(Color.BLACK);
-                } else {
-                    button.setBackground(Color.WHITE);
-                }
-
-            }
-        });
-
-        return button;
     }
 
     // gets and sets.

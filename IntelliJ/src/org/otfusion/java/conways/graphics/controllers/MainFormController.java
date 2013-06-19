@@ -25,7 +25,7 @@ public class MainFormController {
     private int status;
 
     public MainFormController(MainForm form, int x, int y) {
-        engine = Engine.createEngine(x, y);
+        engine = Engine.createEngine(form, x, y);
         this.form = form;
         this.status = STATUS_STOPPED;
     }
@@ -44,8 +44,8 @@ public class MainFormController {
             form.getStopButton().setEnabled(true);
             boolean[][] cells = Tools.convertToBooleanArray(form.getCellButtons());
             engine.getUniverse().setUniverse(cells);
+            engine.setGenerations(-1);
             engine.init();
-
         }
     }
 
